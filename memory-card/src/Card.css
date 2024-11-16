@@ -1,0 +1,22 @@
+.card {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #6e2f2f;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s;
+    background: pink;
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
