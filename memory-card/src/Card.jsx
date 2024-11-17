@@ -1,17 +1,11 @@
 import React from "react";
-import './Card.css';
+import "./Card.css";
 
-const Card = ({ card, handleClick, isFlipped }) => {
+const Card = ({ card, handleClick }) => {
   return (
     <div className="card" onClick={() => handleClick(card)}>
-      {isFlipped ? (
-        <div>
-          <img src={card.image} alt={card.name} />
-          <p>{card.name}</p>
-        </div>
-      ) : (
-        <div className="card-back">?</div>
-      )}
+      <img src={card.image} alt={card.name} />
+      <p>{card.name}</p>
     </div>
   );
 };

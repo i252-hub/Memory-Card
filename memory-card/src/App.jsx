@@ -19,7 +19,7 @@ function App() {
               return {
                 id: index + 1,
                 name: pokemon.name,
-                image: pokemonDetail.data.sprites.front_default, // Fetch the image URL from the response
+                image: pokemonDetail.data.sprites.front_default, 
               };
             })
           );

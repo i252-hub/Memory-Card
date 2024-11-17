@@ -1,5 +1,8 @@
 .scoreboard {
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
   }
   
   h2 {
